@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lawkush Prasad CV"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:focusableInTouchMode="true"
+        android:src="@drawable/law2"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address "
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A 4/2 Alimco Township GT road \nKanpur."
+        android:textSize="20sp"
+        android:textColor="@color/items"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+
+        />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College "
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KAMLA NEHRU INSTITUTE OF TECHNOLOGY, SULTANPUR."
+        android:textSize="20sp"
+        android:textColor="@color/items"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+
+        />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:paddingHorizontal="5dp"
+        android:layout_gravity="center"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Master of Computer Applications"
+        android:textSize="20sp"
+        android:textColor="@color/items"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        />
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:paddingHorizontal="5dp"
+        android:layout_gravity="center"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technical Skills"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" C, Java, Android(Basic) and Python(Intermediate)"
+        android:textSize="20sp"
+        android:textColor="@color/items"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        />
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:paddingHorizontal="5dp"
+        android:layout_gravity="center"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : lawkushv@gmail.com"
+        android:textSize="20sp"
+        android:textColor="@color/items"
+        android:textStyle="bold|italic"
+        android:paddingLeft="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile No.- +91- 8318667702"
+        android:textSize="20sp"
+        android:textColor="@color/items"
+        android:textStyle="bold|italic"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook :- lawkushv"
+        android:textSize="20sp"
+        android:textColor="@color/items"
+        android:textStyle="bold|italic"
+        android:paddingLeft="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LinkedIn :- lawkushv"
+        android:textSize="20sp"
+        android:textColor="@color/items"
+        android:textStyle="bold|italic"
+        android:paddingLeft="15dp"
+        />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
